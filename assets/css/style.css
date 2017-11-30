@@ -1,0 +1,103 @@
+  body {
+    background-image: url("../images/dust_scratches/dustscratches.png");
+    font-size:120%;
+  }
+  nav{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #aeaeae;
+    background-color: #fff;
+  }
+
+  a {
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aeaeae;
+  }
+  hr {
+    color: #aeaeae;
+    border-width: 1px;
+    border-style: solid;
+  }
+  h1 {
+    background-color:#4aaaa5;
+    color: white;
+  }
+  h2 {
+    color: #4aaaa5
+  }
+  h3 {
+    color: #4aaaa5
+  }
+  p {
+    font-size: 18px;
+    font-family: Georgia, serif;
+    padding-bottom: 20px;
+    line-height: 150%;
+  }
+
+
+  .profilepic {
+    float: left;
+    width: 350px;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.cardborder {
+      border-style: solid;
+      border-color: #e6e6e6;
+      border-width: 1px;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 25%;
+      background-color: #4aaaa5;
+      color: #ffffff;
+    }
+
+    .caption:hover {
+      opacity: 0;
+    }
+
+  footer {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    font-family: Georgia, serif;
+    padding: 40px;
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #4aaaa5;
+    color: #e6e6e6;
+    background-color: #666666;
+  }
+}
+@media screen and (max-width: 475px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
